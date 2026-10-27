@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>BREW & BEAN | Menu</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        BREW <span>&</span> BEAN
+    </div>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="menu.html">MENU</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="cart.html">🛒 CART</a>
+    </nav>
+</header>
+<section class="menu-section">
+    <h1>Our Menu</h1>
+    <p class="section-text">
+        Explore our delicious collection of coffees and pairings.
+    </p>
+    <h2 class="category-title">
+        ☕ Hot Coffee
+    </h2>
+    <div class="coffee-grid">
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/espresso.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Classic Espresso</h3>
+                <p>Strong and rich classic espresso.</p>
+                <span>₹120</span>
+                <button onclick="addToCart('Classic Espresso',120)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/americano.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Americano</h3>
+                <p>Espresso mixed with hot water.</p>
+                <span>₹140</span>
+                <button onclick="addToCart('Americano',140)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/cappuccino.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Cappuccino</h3>
+                <p>Espresso with creamy milk foam.</p>
+                <span>₹160</span>
+                <button onclick="addToCart('Cappuccino',160)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/cafe latte.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Café Latte</h3>
+                <p>Smooth espresso with steamed milk.</p>
+                <span>₹170</span>
+                <button onclick="addToCart('Café Latte',170)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/mocha.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Chocolate Mocha</h3>
+                <p>Chocolate combined with rich espresso.</p>
+                <span>₹180</span>
+                <button onclick="addToCart('Chocolate Mocha',180)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/caramel-macchia to.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Caramel Macchiato</h3>
+                <p>Espresso with caramel and creamy milk.</p>
+                <span>₹190</span>
+                <button onclick="addToCart('Caramel Macchiato',190)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/flate white.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Flat White</h3>
+                <p>Velvety espresso with steamed milk.</p>
+                <span>₹180</span>
+                <button onclick="addToCart('Flat White',180)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/cookie cream coffee.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Cookie Cream Coffee</h3>
+                <p>Rich coffee with a creamy finish and with delicious cookies.</p>
+                <span>₹210</span>
+                <button onclick="addToCart('Cookie Cream Coffee',210)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+    <h2 class="category-title">
+        🧊 Cold Coffee
+    </h2>
+    <div class="coffee-grid">
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/cold coffee.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Iced Coffee</h3>
+                <p>Refreshing chilled coffee.</p>
+                <span>₹150</span>
+                <button onclick="addToCart('Iced Coffee',150)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/cold brew.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Cold Brew</h3>
+                <p>Slow brewed smooth cold coffee.</p>
+                <span>₹170</span>
+                <button onclick="addToCart('Cold Brew',170)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/iced latte.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Iced Latte</h3>
+                <p>Cold espresso with chilled milk.</p>
+                <span>₹180</span>
+                <button onclick="addToCart('Iced Latte',180)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/frappe.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Classic Frappe</h3>
+                <p>Cold blended creamy coffee.</p>
+                <span>₹190</span>
+                <button onclick="addToCart('Classic Frappe',190)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/iced mocha.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Iced Mocha</h3>
+                <p>Chocolate and coffee served chilled.</p>
+                <span>₹200</span>
+                <button onclick="addToCart('Iced Mocha',200)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/vanilla iced coffee.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Vanilla Cold Coffee</h3>
+                <p>Cold coffee with vanilla flavour.</p>
+                <span>₹190</span>
+                <button onclick="addToCart('Vanilla Cold Coffee',190)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+    <h2 class="category-title">
+        ✨ Special Coffee
+    </h2>
+    <div class="coffee-grid">
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/hazel nut.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Hazelnut Coffee</h3>
+                <p>Rich coffee with roasted hazelnut flavour.</p>
+                <span>₹210</span>
+                <button onclick="addToCart('Hazelnut Coffee',210)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/cafe latte.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Cafe Latte</h3>
+                <p>Classic latte with sweetness.</p>
+                <span>₹200</span>
+                <button onclick="addToCart('Cafe Latte',200)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/Tiramisu.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Tiramisu Coffee</h3>
+                <p>A dessert-inspired coffee creation.</p>
+                <span>₹230</span>
+                <button onclick="addToCart('Tiramisu Coffee',230)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/Brown sugar latte.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Brown sugar latte</h3>
+                <p>Fragrant coffee with a delicate sugar latte.</p>
+                <span>₹220</span>
+                <button onclick="addToCart('Brown sugar latte',220)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/spanish.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3> Special Spanish</h3>
+                <p>Premium chocolate spanish coffee.</p>
+                <span>₹230</span>
+                <button onclick="addToCart(' Special Spanish',230)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+    <h2 class="category-title">
+        🥐 Coffee Pairings
+    </h2>
+    <div class="coffee-grid">
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/croissant.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Butter Croissant</h3>
+                <p>Fresh buttery croissant.</p>
+                <span>₹120</span>
+                <button onclick="addToCart('Butter Croissant',120)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/choco cake.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Chocolate Cake</h3>
+                <p>Soft and delicious chocolate cake.</p>
+                <span>₹160</span>
+                <button onclick="addToCart('Chocolate Cake',160)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/choco browine.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Chocolate Brownie</h3>
+                <p>Rich and fudgy chocolate brownie.</p>
+                <span>₹140</span>
+                <button onclick="addToCart('Chocolate Brownie',140)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/cinnamon rolls.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Cinnamon roll</h3>
+                <p>Creamy and delicious Cinnamon.</p>
+                <span>₹180</span>
+                <button onclick="addToCart('Cinnamon',180)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/cookies.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Chocolate Cookies</h3>
+                <p>Crunchy cookies with chocolate chips.</p>
+                <span>₹100</span>
+                <button onclick="addToCart('Chocolate Cookies',100)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+        <div class="coffee-card">
+            <video autoplay muted loop playsinline>
+                <source src="videos/blueberry cake.mp4"
+                        type="video/mp4">
+            </video>
+            <div class="card-content">
+                <h3>Blueberry Muffin</h3>
+                <p>Soft muffin filled with blueberries.</p>
+                <span>₹130</span>
+                <button onclick="addToCart('Blueberry Muffin',130)">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <h2>BREW & BEAN</h2>
+    <p>Where Every Cup Tells a Story ☕</p>
+    <p>© 2026 BREW & BEAN</p>
+</footer>
+<script src="java script/script.js"></script>
+</body>
+</html>
